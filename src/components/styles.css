@@ -17,6 +17,10 @@ a.anchorHeader {
     text-decoration: none;
 }
 
+.anchorHeader:hover {
+ text-decoration: #E6E9EC 1px underline;
+}
+
 
 .itemHeader { grid-area: header; display: grid;}
 .itemContent { grid-area: main; border: 1px solid transparent; }
@@ -104,6 +108,11 @@ color: #FFED05;
   footer {
     color: white;
     text-align: center
+  }
+
+  .contact-page {
+    background-color: black;
+    min-height: 100vh;
   }
   
 

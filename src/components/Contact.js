@@ -4,7 +4,7 @@ import LastLayer from "../images/LastLayer.png";
 
 const Contact = () => {
   return (
-    <footer id="contact-us" className="blackBackground">
+    <footer id="contact" className="contact-page">
       <img src={LastLayer} />
       <div className="grid-container-contact">
         <div className="grid-item-contact" style={{ width: "200px" }}>

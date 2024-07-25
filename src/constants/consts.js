@@ -12,7 +12,7 @@ export const navHeader = [
     name: "Teams",
   },
   {
-    id: "contact-us",
+    id: "contact",
     name: "Contact Us",
   },
 ];
