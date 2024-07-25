@@ -8,7 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+.App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.background-image {
+  background-image: url('./images/Layer.png');
+  background-size: cover; /* Adjusts the image size to cover the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image within the element */
+  height: 100vh; /* Optional: Ensures the element covers the full viewport height */
+  width: 100%; /* Optional: Ensures the element covers the full width of its container */
+}
+
+.grid-container-contact {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item-contact {
+  text-align: center;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  font-size: 13px;
+}
+

@@ -1,0 +1,109 @@
+nav {
+    display: flex;
+    list-style-type: none;
+    padding: 16px;
+    justify-content: center;
+}
+
+a.anchorHeader {
+    font-family: Bowlby One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;    
+    cursor: pointer;
+    color: #FFFFFF;
+    margin: 16px;
+    text-decoration: none;
+}
+
+
+.itemHeader { grid-area: header; display: grid;}
+.itemContent { grid-area: main; border: 1px solid transparent; }
+.itemFooter { grid-area: footer; display: grid; justify-content: end;}
+
+.grid-container-about {
+    display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  background-color: #CC3738;
+  ;
+  height: '100vh';
+  width: '100%';
+}
+
+.grid-container-about > div {
+    text-align: center;
+  }
+
+.about-logos-header {
+     display: flex;
+      margin-left: 3em
+}
+
+h1{
+    font-family: Bowlby One;
+    font-weight: 600;
+    color: #FFED05
+}
+
+.font-color-para {
+     color: #E6E9EC
+}
+
+.inline {
+    display: flex
+}
+
+.blackBackground {
+    background-color: black;
+}
+
+.inline-image-teams {
+    display: flex;
+    margin-top: -10em;
+    padding: 16px;
+    justify-content: space-between
+}
+
+.center-align {
+    text-align: center;
+}
+
+.teams-image {
+    height: 50px;
+}
+
+.anchor-style {
+    color: white;
+    text-decoration: none;
+}
+
+.grid-container-teams {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+  .grid-item-teams {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .profile-height {
+    height: 140px;
+  }
+
+  .header-color {
+color: #FFED05;
+  }
+
+  footer {
+    color: white;
+    text-align: center
+  }
+  
+
